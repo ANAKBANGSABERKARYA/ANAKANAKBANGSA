@@ -1,0 +1,195 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{ 
+
+	font-family: sans-serif; 
+	background-color: black;
+	width: 100vw;
+	overflow-x: hidden;
+	max-width: 1349px;
+	display: block;
+	margin: 0 auto;
+}
+
+div{ box-sizing: border-box; }
+
+.selamatdatang{
+	font-size: 50px;
+	width: 1349px;
+	height: 100px;
+	border: 2px solid black;
+	background-color: grey;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.navbar{
+	height: 50PX;
+	width: 1349px;
+	background-color: #0c1b1f;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-bottom: 100px;
+}
+
+.nav-menu{
+	width: 100%;
+	align-items: center;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+.nav-menu li a {
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+}
+
+.nav-menu li a:hover {
+	font-size: 20px;
+	color: white;text-decoration: underline;
+	transition: 0.3s;
+}
+
+
+
+
+
+.pembuka{
+	display: flex;
+}
+.latarbelakang{
+	transform: translate(15%, -4%);
+	width: 1000px;
+	height: 530px;
+	margin-top: 90px;
+	margin-bottom: 100px;
+}
+
+.tekspembuka{
+	position: relative;
+}
+.tekspembuka p{
+	text-align: center;
+	font-family: sans-serif;
+	position: absolute;
+	top: 20%;
+	left: 25%;
+	color: white;
+	font-size: 100px;
+}
+
+
+
+.gambarmenu{
+	margin-top: 15px;
+	margin-left: 40px;
+	position: relative;
+}
+.gambar-container {
+    position: relative;
+}
+.gambarmenu{
+	width: 1149px;
+	height: 630px;
+}
+.gambar-2, .gambar-3, .gambar-4 {
+	justify-content: space-between;
+    position: absolute;
+    margin-left: 100px;
+    top: 50%;
+    width: 400px;
+    height: 300px; 
+    padding-top: 300px;
+}
+.gambar-2 {
+    left: 5%;
+    transform: translate(-29%, -115%);
+}
+.gambar-3 {
+    left: 52%;
+    transform: translate(-77%, -115%);
+}
+.gambar-4 {
+    right: 0;
+    transform: translate(23%, -115%);
+}
+.teksmenu{
+	position: relative;
+}
+.teksmenu p{
+	font-family: sans-serif;
+	position: absolute;
+	top: 5%;
+	left: 550px;
+	color: white;
+	display: flex;
+	font-size: 60px;
+}
+.menubabiguling{
+	margin-left: 50px;
+	display: flex;
+	margin-top: 50px;
+	justify-content: space-around;
+	color: white;
+	font-size: 30px;
+	font-family: sans-serif;
+	line-height: 1.2;
+	padding-bottom: 20px;
+
+}
+.menubabiguling .menumakan{
+	width: 20%;
+}
+.menuteks{
+	display: flex;
+	justify-content: space-around;
+}
+.menuteks h2{
+	color: white;
+	font-size: 28px;
+	font-family: sans-serif;
+	line-height: 1.2;
+	width: 32%;
+}
+
+.video{
+
+	position: relative;
+	left: 630px;
+	color: black;
+	margin-top: 200px;
+	margin-bottom: 20px;
+	background-color: white;
+	width: 7.5%;
+}
+
+.address{
+	position: relative;
+	left: 610px;
+	color: black;
+	margin-top: 200px;
+	margin-bottom: 20px;
+	background-color: white;
+	width: 12%;
+}
+.address1{
+	margin-top: 0px;
+	margin-left: 90px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+
+}
+	
+
+.footer{
+	width: 1349px;
+	background-color: white;
+	text-align: center;
+	color: black;
+}
